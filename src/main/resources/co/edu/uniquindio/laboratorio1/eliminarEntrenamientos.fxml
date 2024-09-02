@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: fff8ba; -fx-border-color: d68f4a;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.laboratorio1.EliminarEntrenamientosController">
+   <children>
+      <Label fx:id="lTituloEliminarEntrenamientos" layoutX="116.0" layoutY="46.0" prefHeight="63.0" prefWidth="369.0" text="Eliminar Entrenamientos" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="bAtrasEliminarEntrenamientos" layoutX="459.0" layoutY="340.0" mnemonicParsing="false" onAction="#click" prefHeight="40.0" prefWidth="116.0" style="-fx-background-color: fbefe0;" text="Atrás">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="bGuardarEliminarEntrenamientos" layoutX="26.0" layoutY="340.0" mnemonicParsing="false" onAction="#click" prefHeight="40.0" prefWidth="116.0" style="-fx-background-color: fbefe0;" text="Eliminar">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <ListView fx:id="lvEntrenamientos" layoutX="26.0" layoutY="174.0" prefHeight="154.0" prefWidth="549.0" />
+      <TextField fx:id="tfBuscarEntrenamientos" layoutX="237.0" layoutY="132.0" prefHeight="25.0" prefWidth="217.0" />
+      <Button fx:id="bBuscarEliminarEntrenamientos" layoutX="459.0" layoutY="124.0" mnemonicParsing="false" onAction="#click" prefHeight="40.0" prefWidth="116.0" style="-fx-background-color: fbefe0;" text="Buscar">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Text fx:id="tTextoBuscar" layoutX="26.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingresa la fecha del entrenamientos que deseas eliminar" wrappingWidth="211.0">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: f7ce87; -fx-border-color: d68f4a;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.laboratorio1.GestionarEntrenamientosController">
+   <children>
+      <Label fx:id="lTituloEntrenamientos" layoutX="139.0" layoutY="71.0" prefHeight="63.0" prefWidth="346.0" text="ENTRENAMIENTOS" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="bMostrarEntrenamiento" layoutX="15.0" layoutY="167.0" mnemonicParsing="false" onAction="#click" prefHeight="51.0" prefWidth="289.0" style="-fx-background-color: fff8ba;" text="Mostrar Entrenamientos">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="bAgregarEntrenamiento" layoutX="316.0" layoutY="167.0" mnemonicParsing="false" onAction="#click" prefHeight="51.0" prefWidth="273.0" style="-fx-background-color: fff8ba;" text="Agregar Entrenamientos">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="bActualizarEntrenamiento" layoutX="15.0" layoutY="260.0" mnemonicParsing="false" onAction="#click" prefHeight="51.0" prefWidth="289.0" style="-fx-background-color: fff8ba;" text="Actualizar Entrenamientos">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="bEliminarEntrenamiento" layoutX="316.0" layoutY="260.0" mnemonicParsing="false" onAction="#click" prefHeight="51.0" prefWidth="273.0" style="-fx-background-color: fff8ba;" text="Eliminar Entrenamientos">
+         <font>
+            <Font name="Bell MT" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="bAtrasEntrenamiento" layoutX="455.0" layoutY="346.0" mnemonicParsing="false" onAction="#click" prefHeight="40.0" prefWidth="116.0" style="-fx-background-color: fbefe0;" text="Atrás">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
